@@ -1,0 +1,384 @@
+body{
+	font-family: Microsoft YaHei;
+    font-size: 13px;
+    color: #333;
+    font-weight: normal;
+    margin: auto;
+}
+.page-container{
+	margin:auto;
+}
+header{
+	position: relative;
+	padding-bottom: 10px;
+	display: block;
+	margin: auto;
+	overflow: hidden;
+}
+#headTitle{
+	display: table;
+	margin-top: 10px;
+}
+#headTitle>.wrapper{
+	display: table-row;
+}
+#siteLogo, #siteName, #siteSlogan{
+	display: table-cell;
+    padding: 10px 10px 10px 0;
+    vertical-align: middle;
+}
+#siteLogo{
+	padding: 0px;
+
+}
+#siteLogo>a{
+	min-height: 50px;
+    display: block;
+}
+#siteSlogan {
+    padding-left: 10px;
+    font-size: 18px;
+    color: #777;
+    font-weight: bold;
+    
+}
+#searchbar {
+    position: absolute;
+    right: 0;
+    top: 45%;
+    max-width: 200px;
+}
+.input-group{
+	width: 100%;
+	position: relative;
+	display: table;
+	border-collapse: separate;
+}
+
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+}
+.form-control{
+    display: block;
+    height: 32px;
+    padding: 5px 10px;
+    font-size: 13px;
+    line-height: 1.53846154;
+    color: #222;
+    vertical-align: middle;
+    background-color: #fff;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    box-sizing: border-box;
+}
+.input-group-btn{
+	position: relative;
+    font-size: 0;
+    white-space: nowrap;
+    width: 1%;
+    vertical-align: middle;
+    display: table-cell;
+    box-sizing: border-box;
+    text-shadow: none;
+    background: #b3d4fc;
+}
+.btn{
+	display: inline-block;
+    padding: 5px 12px;
+    margin-bottom: 0;
+    font-family: "Helvetica Neue",Helvetica,Tahoma,Arial,sans-serif;
+    font-size: 13px;
+    line-height: 1.53846154;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#navbar{
+	margin-bottom: 14px;
+}
+.navbar {
+    background: #f2f2f2 none repeat 0 0;
+    border: none #d5d5d5 1px;
+    border-radius: 0px;
+    font-weight: normal;
+    font-size: 13px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+.navbar-collapse{
+	max-height: 340px;
+    padding-right: 10px;
+}
+.nav{
+	padding-left: 0;
+	list-style: none;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+.nav-system-home {
+    list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+    width: 66px;
+    height: 38px;
+    line-height: 40px;
+    background: #0076c5;
+    
+}
+.nav-system-home a{
+	color: white;
+}
+.article-3 {
+	list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+    width: 92px;
+    height: 38px;
+    line-height: 40px;
+}
+
+.article-3 a{
+	color: black;
+	width: 92px;
+    height: 38px;
+}
+.article-3:hover {
+	background: #0076c5;
+	color: white;
+}
+.article-3 a:hover {
+	color: white;
+}
+.article-4{
+	list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+    width: 118px;
+    height: 38px;
+    line-height: 40px;
+}
+.article-4 a{
+	color: black;
+}
+.article-4:hover{
+	background: #0076c5;
+	color: white;
+}
+.article-4 a:hover {
+	color: white;
+}
+.article-5{
+	list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+    width: 118px;
+    height: 38px;
+    line-height: 40px;
+}
+.article-5 a{
+	color: black;
+}
+.article-5:hover{
+	background: #0076c5;
+	color: white;
+}
+.article-5 a:hover {
+	color: white;
+}
+.article-6{
+	list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+    width: 92px;
+    height: 38px;
+    line-height: 40px;
+}
+.article-6 a{
+	color: black;
+}
+.article-6:hover{
+	background: #0076c5;
+	color: white;
+}
+.article-6 a:hover {
+	color: white;
+}
+.article-7{
+	list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+    width: 92px;
+    height: 38px;
+    line-height: 40px;
+}
+.article-7 a{
+	color: black;
+}
+.article-7:hover{
+	background: #0076c5;
+	color: white;
+	
+}
+.article-7 a:hover {
+	color: white;
+}
+.nav-page1{
+	list-style-type: none;
+    cursor: pointer;
+    text-align: center;
+    width: 92px;
+    height: 38px;
+    line-height: 40px;	
+}
+.nav-page1 a{
+	color: black;
+}
+.nav-page1:hover{
+	background: #0076c5;
+	color: white;
+}
+.nav-page1 a:hover {
+	color: white;
+}
+.focus-top{
+	width: 1154px;
+	height: 486px;
+}
+.focus-middle{
+	width: 1154px;
+	height: 224px;
+	background-color: white;
+}
+.row>[class*='col-'] {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.focus-bottom{
+	width: 1154px;
+	height: 5px;
+}
+.col-md-3{
+	float: left;
+}
+.panel{
+	margin-bottom: 14px;
+	color: #333;
+    background-color: white;
+    border-radius: 3px;
+}
+.panel-heading{
+	padding: 8px 15px;
+	
+}
+.panel-heading strong {
+    color: #0071bc;
+    font-size: 15px;
+    font-weight: 700;
+}
+.pull-right {
+    float: right!important;
+}
+#block3.panel-block .panel-body {
+    padding: 75px 15px 10px 15px;
+    background: url(../img/index03.png) no-repeat 10px 0;
+}
+.ul-list{
+	margin: -2px -15px;
+	padding: 0;
+}
+.ul-list>li {
+    display: block;
+    padding: 5px 15px 5px 15px;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.panel-body a:not(.btn), .panel-body a:not(.btn):visited {
+    color: #0d3d88;
+}
+a:visited {
+    color: #4d4d4d;
+}
+.focus-bottom {
+    padding-top: 5px;
+    position: relative;
+}
+.col-md-12{
+	float: left;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+.row {
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.row:after {
+    clear: both;
+}
+.row:before, .row:after {
+    display: table;
+    content: " ";
+}
+
+.all-bottom:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    background: #e6e6e6;
+    left: -100%;
+    top: 0;
+    width: 300%;
+    right: -100%;
+    bottom: -1px;
+}
+.all-bottom {
+    padding-top: 5px;
+    position: relative;
+}
+*, :before, :after {
+    box-sizing: border-box;
+}
+.panel-body{
+	height: 80px;
+}
+.panel-block.panel-borderless {
+    border: 0;
+    box-shadow: none;
+}
+#block125.panel .panel-heading{
+	display: none;
+}
+.panel-heading strong {
+    color: #0071bc;
+    font-size: 15px;
+    font-weight: 700;
+}
+#block215.panel-block .panel-body {
+    padding: 10px 0px;
+}
+#block215 .table {
+    margin-bottom: 0;
+}
+.table-borderless th, .table-borderless td {
+    border: 0;
+}
+.table th, .table td {
+    padding: 8px;
+    line-height: 1.53846154;
+    vertical-align: top;
+    transition: all .3s cubic-bezier(.175,.885,.32,1);
+}
+
